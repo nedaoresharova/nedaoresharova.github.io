@@ -8,26 +8,16 @@ The goal is to practice daily Git usage.
 
 
 
-\## How the site works
+## How the site works
+- This repo name makes Pages serve from https://nedaoresharova.github.io
+- Branch: `main`, folder: root. Static HTML (no build).
+- Pushing to `main` redeploys automatically.
 
-\- This repository is named \*\*nedaoresharova.github.io\*\*, so GitHub Pages serves it at \*\*https://nedaoresharova.github.io\*\*.
-
-\- Pages is set to deploy from the \*\*main\*\* branch (root folder).
-
-\- When I push changes, GitHub automatically redeploys. There is no build step.
-
-\- The browser loads `index.html` as the homepage. Any other `.html` files are regular static pages that I link to.
-
-
-
-\## Files
-
-* index.html # homepage
-* contact.html # example second page
-* styles.css # simple styling
-* README.md # this file
-
-
+## Files
+- `index.html` – homepage
+- `contact.html` – second page (linked from nav)
+- `README.md` – this file
+- `styles.css` – (optional) basic styles if you added them
 
 
 
@@ -39,17 +29,12 @@ The goal is to practice daily Git usage.
 
 
 
-\## Daily practice log
+## Daily practice log
 
-\- \*\*Day 1:\*\* Created repo, added `index.html`, enabled Pages.
-
-\- \*\*Day 2:\*\* Added README explaining how it works.
-
-\- \*\*Day 3:\*\* Practiced `git add -p` (partial staging) and added navigation.
-
-\- \*\*Day 4:\*\* Added a basic stylesheet and linked it.
-
-\- \*\*Day 5:\*\* Small content improvement + another `add -p`.
+- **2025-09-28 (Day 1):** Initial setup — created repo `nedaoresharova.github.io`, added `index.html`, enabled GitHub Pages.
+- **2025-09-29 (Day 2):** Wrote `README.md` explaining how the site works (Pages from main/root), described files.
+- **2025-09-30 (Day 3):** Added About section to `index.html`; practiced partial staging with `git add -p` (staged only the footer first).
+- **2025-10-01 (Day 4):** Added `contact.html` and navigation in `index.html`; committed nav separately, then added the page.
 
 
 
